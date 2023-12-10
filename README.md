@@ -4,10 +4,10 @@ This repository contains a collection of Laravel Eloquent models and migrations 
 
 ## Features
 
-- **One-to-One Relationships:** [Explanation]
-- **One-to-Many Relationships:** [Explanation]
-- **Many-to-One Relationships:** [Explanation]
-- **Many-to-Many Relationships:** [Explanation]
+- **One-to-One Relationships:** 
+- **One-to-Many Relationships:**
+- **Many-to-One Relationships:**
+- **Many-to-Many Relationships:** 
 
 ## Getting Started
 
