@@ -45,9 +45,3 @@ This repository contains a collection of Laravel Eloquent models and migrations 
 
 Explore the various relationship examples in the `app` directory. Each model is accompanied by a migration file, providing a clear structure for understanding and implementing relationships.
 
-## Examples
-
-### One-to-One Relationship
-
-```php
-// Code example goes here
