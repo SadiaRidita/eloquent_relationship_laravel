@@ -18,15 +18,20 @@
             <table class="table table-bordered">
                 <thead>
                 <tr>
-                    <th>Comment</th>
+
                     <th>Post Title</th>
+                    <th>Comment</th>
                 </tr>
                 </thead>
                 <tbody>
-                @foreach($comments as $data)
+                @foreach($posts as $data)
                     <tr>
-                        <td>{{ $data->message }}</td>
-                        <td>{{ $data->post->title }}</td>
+                        <td>{{ $data->title }}</td>
+                        <td>
+                            @foreach($data->catagories as $cat)
+                                {{$cat->name}}
+                            @endforeach
+                         </td>
                                 </tr>
                         </td>
                     </tr>

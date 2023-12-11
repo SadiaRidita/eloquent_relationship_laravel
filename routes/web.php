@@ -24,6 +24,9 @@ Route::get('/', function () {
     //return $post;
     $posts = Post::with('comments')->get();
     $comments = Comment::all();
-    return view('welcome', compact('comments'));
+
+    $posts = Post::with('catagories')->get();
+    //return $posts;
+    return view('welcome', compact('posts'));
 });
 
